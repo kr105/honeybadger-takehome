@@ -1,0 +1,10 @@
+version: "3.3"
+services:
+  honeybadger_takehome:
+    build:
+      context: .
+      args:
+        LISTEN_PORT: ${LISTEN_PORT}
+    restart: unless-stopped
+    ports:
+      - ${LISTEN_PORT}:${LISTEN_PORT}

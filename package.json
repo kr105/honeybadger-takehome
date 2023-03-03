@@ -1,0 +1,26 @@
+{
+  "name": "honeybadger-takehome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kr105/honeybadger-takehome.git"
+  },
+  "author": "Carlos Pizarro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kr105/honeybadger-takehome/issues"
+  },
+  "homepage": "https://github.com/kr105/honeybadger-takehome#readme",
+  "dependencies": {
+    "@slack/oauth": "^2.6.0",
+    "@slack/web-api": "^6.8.1",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
